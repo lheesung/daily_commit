@@ -1,0 +1,20 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.headerstyle{
+    margin:0 auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    height: 10vh;
+    background-color: rgb(42, 152, 241);
+    color: white;
+    transition: transform .5s;
+}
+header:hover{
+    transform: scale(1.11);
+}
