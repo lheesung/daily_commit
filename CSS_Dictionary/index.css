@@ -4,17 +4,36 @@
 .headerstyle{
     margin:0 auto;
 }
+
 header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 100px;
     height: 10vh;
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
     background-color: rgb(42, 152, 241);
     color: white;
     transition: transform .5s;
+    margin-bottom: 100px;
 }
 header:hover{
     transform: scale(1.11);
+}
+.space{
+    background-color: white;
+    height: 200px;
+}
+ul{
+    list-style: none;
+}
+button{
+    width:320px;
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20%;
+    font-size: 35px;
 }
